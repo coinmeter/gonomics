@@ -7,16 +7,16 @@ import (
 const (
 	APIBase = "https://api.nomics.com/v1"
 
-	CurrenciesTicker   = "currencies/ticker"
-	CurrenciesMetadata = "currencies"
+	CurrenciesTickerRoute   = "currencies/ticker"
+	CurrenciesMetadataRoute = "currencies"
 
-	Markets          = "markets"
-	MarketCapHistory = "market-cap/history"
+	MarketsRoute          = "markets"
+	MarketCapHistoryRoute = "market-cap/history"
 
-	GlobalVolumeHistory = "volume/history"
+	GlobalVolumeHistoryRoute = "volume/history"
 
-	FiatExchangeRates        = "exchange-rates"
-	FiatExchangeRatesHistory = "exchange-rates/history"
+	FiatExchangeRatesRoute        = "exchange-rates"
+	FiatExchangeRatesHistoryRoute = "exchange-rates/history"
 )
 
 // Noimcs defines the supported subset of the nomics API.
